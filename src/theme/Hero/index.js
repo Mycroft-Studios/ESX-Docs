@@ -3,7 +3,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import Typed from "react-typed";
 
-import SvgHero from "@site/src/svg/Hero";
+import SvgHero from "@site/src/svg/topEditor.svg";
 import SvgCreate from "@site/src/svg/Create";
 import SvgCreateBg from "@site/src/svg/CreateBg";
 import SvgDevelop from "@site/src/svg/Develop";

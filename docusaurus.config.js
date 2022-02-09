@@ -3,7 +3,6 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-const path = require("path");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -40,10 +39,13 @@ const config = {
       })
     ]
   ],
-  plugins: ["docusaurus-plugin-sass"],
+  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-google-adsense"],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      googleAdsense: {
+        dataAdClient: "ca-pub-9580213111363531"
+      },
       navbar: {
         title: "ESX Framework",
         logo: {
@@ -60,11 +62,15 @@ const config = {
           },
           {
             type: "doc",
-            docId: "Infinity/todo",
+            docId: "Infinity/installation",
             position: "left",
             label: "ESX Infinity"
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          {
+            to: "/docs/infinity/installation",
+            label: "Blog",
+            position: "left"
+          },
           {
             href: "https://github.com/esx-framework",
             label: "GitHub",
@@ -84,7 +90,7 @@ const config = {
               },
               {
                 label: "ESX Infinity",
-                to: "/docs/Infinity/todo"
+                to: "/docs/Infinity/installation"
               }
             ]
           },
@@ -102,7 +108,7 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "/blog"
+                to: "/docs/infinity/installation"
               },
               {
                 label: "GitHub",
