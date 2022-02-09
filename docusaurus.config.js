@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const path = require("path");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -34,12 +35,12 @@ const config = {
             "https://github.com/esx-framework/esx-docs.github.io/tree/Develop/"
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css")
+          customCss: require.resolve("./src/css/custom.scss")
         }
       })
     ]
   ],
-
+  plugins: ["docusaurus-plugin-sass"],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -77,11 +78,11 @@ const config = {
               },
               {
                 label: "ESX Infinity",
-                to: "/docs/intro"
+                to: "/docs/legacy/installation"
               },
               {
                 label: "ESX Reborn",
-                to: "/docs/intro"
+                to: "/docs/legacy/installation"
               }
             ]
           },
