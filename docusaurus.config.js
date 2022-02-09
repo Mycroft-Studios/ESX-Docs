@@ -7,9 +7,9 @@ const path = require("path");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ESX Framework",
+  title: "ESX",
   tagline: "The Leading FiveM Framework",
-  url: "https://esx-framework.org",
+  url: "https://docs.esx-framework.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -58,9 +58,15 @@ const config = {
             position: "left",
             label: "ESX Legacy"
           },
+          {
+            type: "doc",
+            docId: "Infinity/todo",
+            position: "left",
+            label: "ESX Infinity"
+          },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/esx-framework",
             label: "GitHub",
             position: "right"
           }
@@ -78,11 +84,7 @@ const config = {
               },
               {
                 label: "ESX Infinity",
-                to: "/docs/legacy/installation"
-              },
-              {
-                label: "ESX Reborn",
-                to: "/docs/legacy/installation"
+                to: "/docs/Infinity/todo"
               }
             ]
           },
@@ -91,7 +93,7 @@ const config = {
             items: [
               {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus"
+                href: "https://discord.gg/ztzKWAF"
               }
             ]
           },

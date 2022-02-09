@@ -92,10 +92,7 @@ function Hero() {
                     <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
-                <a
-                  href={useBaseUrl("/docs/legacy/installation")}
-                  className="link"
-                >
+                <a href={"https://discord.gg/ztzKWAF"} className="link">
                   Read More
                 </a>
               </div>
