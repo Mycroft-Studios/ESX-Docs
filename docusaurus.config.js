@@ -6,13 +6,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ESX",
-  tagline: "The Leading FiveM Framework",
+  title: "ESX Docs",
+  tagline: "Industry Leading FiveM Framework",
   url: "https://docs.esx-framework.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon:
+    "https://cdn.discordapp.com/attachments/936727454087806987/937875927717785660/30593074.png",
   organizationName: "esx-framework", // Usually your GitHub org/user name.
   projectName: "Infinity", // Usually your repo name.
 
@@ -46,6 +47,9 @@ const config = {
       googleAdsense: {
         dataAdClient: "ca-pub-9580213111363531"
       },
+      colorMode: {
+        defaultMode: "dark"
+      },
       navbar: {
         title: "ESX Framework",
         logo: {
@@ -68,8 +72,8 @@ const config = {
           },
           {
             to: "/docs/infinity/installation",
-            label: "Blog",
-            position: "left"
+            label: "Tutorials",
+            position: "right"
           },
           {
             href: "https://github.com/esx-framework",
@@ -107,7 +111,7 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
+                label: "Tutorials",
                 to: "/docs/infinity/installation"
               },
               {

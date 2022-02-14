@@ -1,6 +1,8 @@
-# Installation
+---
+title: Install Guide
+---
 
-Instructions on how to download and install the basics of **ESX Infinity**.
+The Offical Guide to Installing **ESX Infinity**.
 
 ## Requirements
 
@@ -24,9 +26,11 @@ Instructions on how to download and install the basics of **ESX Infinity**.
 ## Install
 
 - Make Sure you are **NOT** running an of these resources:
+
   - `essentialmode`
   - `es_extended`
   - `basic-gamemode`
+  - `mapmanager`
   - `fivem-map-skater`
   - `fivem-map-hipster`
   - `default_spawnpoint`
